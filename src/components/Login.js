@@ -22,7 +22,7 @@ const [password, setPassword]=useState('')
 async function submit(e){
 e.preventDefault();
 try{
-await axios.post("https://samplemern-backend.onrender.com/login",{
+await axios.post("https://samplemern-backend.onrender.com/",{
     email, password
 })
 .then(res=>{
