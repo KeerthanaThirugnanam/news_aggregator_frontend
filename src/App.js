@@ -14,8 +14,8 @@ import EditNews from './components/EditNews.js';
 import Latest from './components/latest.js';
 import Login from "./components/Login"
 import Signup from "./components/Signup"
-import { useEffect } from 'react'
-import CLOUDS from 'vanta/src/vanta.birds' 
+// import { useEffect } from 'react'
+// import CLOUDS from 'vanta/src/vanta.birds' 
 
 import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
 
@@ -24,20 +24,20 @@ function App() {
 
 
   
-  useEffect(()=>{
-    CLOUDS({
-         el: "#vanta",
-         mouseControls: true,
-         touchControls: true,
-         gyroControls: false,
-         minHeight: 200.00,
-         minWidth: 200.00,
-         scale: 1.00,
-         scaleMobile: 1.00,
-         backgroundColor: 0x0
+//   useEffect(()=>{
+//     CLOUDS({
+//          el: "#vanta",
+//          mouseControls: true,
+//          touchControls: true,
+//          gyroControls: false,
+//          minHeight: 200.00,
+//          minWidth: 200.00,
+//          scale: 1.00,
+//          scaleMobile: 1.00,
+//          backgroundColor: 0x0
 
-    })
-},[])   
+//     })
+// },[])   
 
 
   return (
